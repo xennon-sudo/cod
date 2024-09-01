@@ -1,0 +1,9 @@
+{
+  "name": "My Codespace",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [8080],
+  "postCreateCommand": "echo 'Welcome to your Codespace!'",
+  "extensions": [
+    "ms-vscode.vscode-typescript-next"
+  ]
+}
